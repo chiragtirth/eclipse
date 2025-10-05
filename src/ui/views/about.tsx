@@ -20,17 +20,6 @@ const openSourceLibs = [
 	},
 ];
 
-const specialThanks: { name: string, twitter: string }[] = [
-	{
-		name: 'Coronux',
-		twitter: 'coronux'
-	},
-	{
-		name: 'S0n1c',
-		twitter: 'S0n1c_Dev'
-	}
-]
-
 
 export default function About() {
 	const libs = [
@@ -50,31 +39,6 @@ export default function About() {
 					title="Eclipse"
 					after={<p>v{window.eclipse.version}</p>}
 				/>
-				<ListItem
-					link='https://eclipseemu.me/tos.html'
-					external
-					title="Terms of Service"
-				/>
-			</List>
-
-			{/* Developers */}
-
-			<ListTitle title="Developers" />
-			<List>
-				<ListItem
-					link='https://magnetar.dev'
-					external
-					media={<LazyImage src="https://api.zenithdevs.com/eclipse/twitter/magnetardev" />}
-					title="Magnetar"
-					subtitle="Lead developer"
-				/>
-				<ListItem
-					link='https://shuga.co'
-					external
-					media={<LazyImage src="https://api.zenithdevs.com/eclipse/twitter/heyitsshuga" />}
-					title="Shuga"
-					subtitle="Developer"
-				/>
 			</List>
 
 			{/* Used Libraries */}
@@ -90,22 +54,6 @@ export default function About() {
 						subtitle={lib.developer}
 					/>
 				))}
-			</List>
-
-			{/* Sepcial Thanks */}
-
-			<ListTitle title="Special Thanks" />
-			<List>
-				{specialThanks.map(person => (
-					<ListItem
-						link={`https://twitter.com/${person?.twitter}`}
-						external
-						media={<LazyImage src={`https://api.zenithdevs.com/eclipse/twitter/${person.twitter}`} />}
-						title={person.name}
-						subtitle={`@${person.twitter}`}
-					/>
-				))}
-			</List>
 		</Page>
 	);
 }
