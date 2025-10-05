@@ -1,7 +1,7 @@
 [{
     "name": "The Basics",
     "id": "boUawdi",
-    "description": "Keep the general look of Eclipse but with varied accent colors.",
+    "description": "Keep the general look of Frosix but with varied accent colors.",
     "banner": "static/img/featured_skins/basics.png",
     "skins": [{
         "name": "Default",
@@ -44,7 +44,7 @@
   }, {
     "name": "Dark Modes",
     "id": "DAWHOik",
-    "description": "Darken up your Eclipse experience, perfect for the late-night gamer.",
+    "description": "Darken up your Frosix experience, perfect for the late-night gamer.",
     "banner": "static/img/featured_skins/dark.png",
     "skins": [{
         "name": "Dark Mode",
@@ -59,7 +59,7 @@
   }, {
     "name": "Retro Aestetics",
     "id": "LJLHkhi",
-    "description": "Eclipse is all about reliving your childhood. Swap your joy-pads with those of beloved consoles and feel like a kid again.",
+    "description": "Frosix is all about reliving your childhood. Swap your joy-pads with those of beloved consoles and feel like a kid again.",
     "banner": "static/img/featured_skins/retro.png",
     "skins": [{
         "name": "G.B.C.I",
