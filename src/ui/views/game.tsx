@@ -16,7 +16,7 @@ function Game(props) {
 				<canvas className="screen"></canvas>
 			</div>
 			<div className="controls touch-only" data-ck-control-region>
-				<div className="emu-name">Eclipse</div>
+				<div className="emu-name">Frosix</div>
 				<div className="shoulder">
 					<div data-ck-control="l_shoulder">L</div>
 					<div data-ck-control="r_shoulder">R</div>
