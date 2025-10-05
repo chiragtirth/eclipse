@@ -48,13 +48,13 @@ function HTTPBad() {
 		<Page>
 			<div className="http-error">
 				<h1>You're on HTTP.</h1>
-				<p>You are using Eclipse on http, which has been depreciated. We do this because offline support, Google Drive, and a chunk of the new features are only possible when accessing Eclipse via https://. </p>
+				<p>You are using Frosix on http, which has been depreciated. We do this because offline support, Google Drive, and a chunk of the new features are only possible when accessing Frosix via https://. </p>
 				<br/>
 				<h3>How Can I Fix This?</h3>
-				<p>By heading over to <a href="https://eclipseemu.me/play">https://eclipseemu.me/play</a>{
+				<p>no fix yet</a>{
 					//@ts-ignore
 					(navigator.standalone) ? 
-						<span> and readding Eclipse to your homescreen</span> : 
+						<span> and readding Frosix to your homescreen</span> : 
 						null
 				}.</p>
 				<br/>
